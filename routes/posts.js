@@ -8,7 +8,7 @@ const koneksi = require('../config/database')
 const {body, validationResult} = require('express-validator')
 
 // view
-router.get('/',function (req,res){
+router.get('/',function (req,res){ 
     // isi data(query)
     koneksi.query('SELECT * FROM posts ORDER BY id desc ',function(err,rows){
         if(err){
