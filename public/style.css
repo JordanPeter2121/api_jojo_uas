@@ -1,0 +1,59 @@
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f4f4f9;
+                            color: #333;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        header {
+                            background-color: #f4102e;
+                            color: rgb(254, 252, 252);
+                            text-align: center;
+                            padding: 1em;
+                        }
+                        
+                        .container {
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-template-rows: repeat(4, auto);
+                            width: 100%;
+                            background-image: url(op.jpg);
+                            background-size: auto 30%;
+                            background-repeat: repeat-y;
+                            background-position: top center;
+                        }
+                        
+                        .data {
+                            background-color: #fff;
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            margin: 8em;
+                            padding: 1em;
+                            width: 70%;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                        }
+                        
+                        .data img {
+                            width: 100px;
+                            /* Untik ukur gambar */
+                            border-radius: 5px;
+                            margin: auto 5px;
+                            float: left;
+                            width: 200px;
+                            height: 250px;
+                        }
+                        
+                        .data-info p {
+                            margin: 0.5em 0;
+                        }
+                        
+                        footer {
+                            text-align: center;
+                            background-color: #040101;
+                            color: rgb(9, 225, 38);
+                            padding: 1em;
+                            position: fixed;
+                            width: 100%;
+                            bottom: 0;
+                        }
